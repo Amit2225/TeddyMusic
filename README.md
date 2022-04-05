@@ -1,6 +1,6 @@
 <p align="center"><a href="https://t.me/TeddyXmusic_bot"><img src="https://telegra.ph/file/636e7ab32108ae4f598ec.jpg"></a></p>
 <p align="center">
-    <br><b>Teddy music is an Open-Source Telegram Bot project that's allow you to play Video & Music trough the Telegram Group Video Chat...click on requirements n then click on deploy to heroku to deploy your own teddy music bot</b><br>
+    <br><b>Teddy music is an Open-Source Telegram Bot project that's allow you to play Video & Music trough the Telegram Group Video Chat...Click on requirements n then click on deploy to heroku to deploy your own teddy music bot</b><br>
 </p>
 <p align="center">
     <a href="https://www.codefactor.io/repository/github/SuruXmanager/TeddyMusic"> <img src="https://www.codefactor.io/repository/github/SuruXmanager/TeddyMusic/badge?color=red&logo=codacy&style=flat-square" alt="CodeFactor" /></a>
