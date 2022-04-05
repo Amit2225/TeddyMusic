@@ -27,9 +27,9 @@ OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 
 # image resources vars
-IMG_1 = getenv("IMG_1", "https://telegra.ph/file/d6f92c979ad96b2031cba.png")
-IMG_2 = getenv("IMG_2", "https://telegra.ph/file/6213d2673486beca02967.png")
-IMG_3 = getenv("IMG_3", "https://telegra.ph/file/f02efde766160d3ff52d6.png")
+IMG_1 = getenv("IMG_1", "https://telegra.ph/file/4778e352519acb282b718.jpg")
+IMG_2 = getenv("IMG_2", "https://telegra.ph/file/3542626dcdf2491011c24.jpg")
+IMG_3 = getenv("IMG_3", "https://telegra.ph/file/0beaf92eb722e307b8cf7.jpg")
 IMG_4 = getenv("IMG_4", "https://telegra.ph/file/be5f551acb116292d15ec.png")
 IMG_5 = getenv("IMG_5", "https://telegra.ph/file/63300139d232dc12452ab.png")
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/c83b000f004f01897fe18.png")
