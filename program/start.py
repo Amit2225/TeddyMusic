@@ -65,9 +65,9 @@ async def start_(c: Client, message: Message):
     user_id = message.from_user.id
     await add_served_user(user_id)
     await message.reply_text(
-        f"""Hi {message.from_user.mention()} 👋🏻\n
-💭 [{me_bot.first_name}](https://t.me/{me_bot.username}) is a bot to play music and video in groups, through the new Telegram video chats.
-🕵🏻 Check out all the **Bot's commands** and how they work by clicking on the » 📚 **Commands** button!
+        f"""Hiii... {message.from_user.mention()} 👋🏻\n
+💭  Add me in your groups to play music and video smoothly without lag!
+🕵🏻 To check all the **Bot's commands** click on » 📚 **Commands** button!
 🧑🏻‍💻 To know how to use this bot, please click on the » ❓ **Basic Guide** button!
 """,
         reply_markup=InlineKeyboardMarkup(
@@ -75,13 +75,9 @@ async def start_(c: Client, message: Message):
                 [
                     InlineKeyboardButton("➕ Add me to a Group ➕", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
-                    InlineKeyboardButton("❓ Basic Guide", callback_data="user_guide")
+                    InlineKeyboardButton("❓ Basic Guide", url=f"https://t.me/teddy_updates/10"),
                 ],[
-                    InlineKeyboardButton("📚 Commands", callback_data="command_list"),
-                    InlineKeyboardButton("❤️ Owner", url=f"https://t.me/{OWNER_USERNAME}")
-                ],[
-                    InlineKeyboardButton("👥 Support Group", url=f"https://t.me/{GROUP_SUPPORT}"),
-                    InlineKeyboardButton("📣 Support Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("📚 Commands", url=f"https://t.me/teddy_updates/11"),
                 ],
             ]
         ),
