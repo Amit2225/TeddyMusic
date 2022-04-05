@@ -1,7 +1,7 @@
 {
-    "name": "Video x Music Stream Bot",
+    "name": "Teddy Music Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
-    "logo": "https://telegra.ph/file/1c41ded2dd871eb36bd7e.png",
+    "logo": "https://telegra.ph/file/e27e45366181b0da94616.jpg",
     "keywords": [
         "py-tgcalls",
         "telegram bot",
@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/levinachannel",
-    "repository": "https://github.com/levina-lab/video-stream",
-    "success_url": "https://t.me/dlwrml",
+    "website": "https://t.me/teddy_updates",
+    "repository": "https://github.com/SuruXmanager/TeddyMusic",
+    "success_url": "https://t.me/sweetttu_1",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
